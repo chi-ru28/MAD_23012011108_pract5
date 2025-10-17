@@ -157,7 +157,7 @@ fun RegisterUI(navController: NavController) {
 
                 // --- Register Button ---
                 Button(
-                    onClick = { /* TODO: handle registration logic */ },
+                    onClick = {  },
                     modifier = Modifier
                         .fillMaxWidth()
                         .align(Alignment.CenterHorizontally)
