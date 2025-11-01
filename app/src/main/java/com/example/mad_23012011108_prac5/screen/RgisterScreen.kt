@@ -49,7 +49,7 @@ fun RegisterUI(navController: NavController) {
             painter = painterResource(R.drawable.guni_pink_logo),
             contentDescription = "Logo",
             modifier = Modifier
-                .height(130.dp)
+                .height(120.dp)
                 .align(Alignment.CenterHorizontally),
             contentScale = ContentScale.Fit
         )
@@ -62,7 +62,7 @@ fun RegisterUI(navController: NavController) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(20.dp)
+                    .padding(10.dp)
             ) {
 
                 // --- Name ---
@@ -147,7 +147,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Confirm Password",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
